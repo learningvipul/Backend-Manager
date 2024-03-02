@@ -44,16 +44,5 @@ namespace BackendManager.Controllers
             return CreatedAtAction(nameof(GetGoal), new { person = goal.Person, exercise = goal.Exercise }, goal);
         }
 
-        // PUT api/<GoalController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<GoalController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
